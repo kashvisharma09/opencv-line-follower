@@ -14,6 +14,12 @@ This is the software-only foundation for a vision-based line-following robot —
 6. Compares the centroid's horizontal position to the frame's center to determine a steering direction
 7. Displays the live feed with the detected contour, centroid, and direction label overlaid, alongside a threshold view for debugging
 
+## Demo 
+![Line follower detecting a line and outputting FORWARD direction]
+(line_follower_demo.png)
+
+*The system detecting the line's contour (blue outline) and centroid (green dot), with the computed steering direction shown in the top-left corner.*
+
 ## Tech Stack
 
 - Python
